@@ -13,3 +13,6 @@ c:\users\sparkuser\documents\visual studio 2015\Projects\SparkClrPoc\SparkClrPoc
 c:\users\sparkuser\documents\visual studio 2015\Projects\SparkClrPoc\SparkClrPoc\obj\Debug\SparkClrPoc.exe
 c:\users\sparkuser\documents\visual studio 2015\Projects\SparkClrPoc\SparkClrPoc\obj\Debug\SparkClrPoc.pdb
 c:\users\sparkuser\documents\visual studio 2015\Projects\SparkClrPoc\SparkClrPoc\bin\Debug\Data\SacramentocrimeJanuary2006.csv
+C:\github\sparkplayground\SparkClrPoc\bin\Debug\SparkClrPoc.exe.config
+C:\github\sparkplayground\SparkClrPoc\obj\Debug\SparkClrPoc.exe
+C:\github\sparkplayground\SparkClrPoc\obj\Debug\SparkClrPoc.pdb
