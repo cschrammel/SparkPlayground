@@ -1,0 +1,15 @@
+c:\users\sparkuser\documents\visual studio 2015\Projects\SparkClrPoc\SparkClrPoc\bin\Debug\SparkClrPoc.exe.config
+c:\users\sparkuser\documents\visual studio 2015\Projects\SparkClrPoc\SparkClrPoc\bin\Debug\SparkClrPoc.exe
+c:\users\sparkuser\documents\visual studio 2015\Projects\SparkClrPoc\SparkClrPoc\bin\Debug\SparkClrPoc.pdb
+c:\users\sparkuser\documents\visual studio 2015\Projects\SparkClrPoc\SparkClrPoc\bin\Debug\CSharpWorker.exe
+c:\users\sparkuser\documents\visual studio 2015\Projects\SparkClrPoc\SparkClrPoc\bin\Debug\log4net.dll
+c:\users\sparkuser\documents\visual studio 2015\Projects\SparkClrPoc\SparkClrPoc\bin\Debug\Microsoft.Spark.CSharp.Adapter.dll
+c:\users\sparkuser\documents\visual studio 2015\Projects\SparkClrPoc\SparkClrPoc\bin\Debug\Newtonsoft.Json.dll
+c:\users\sparkuser\documents\visual studio 2015\Projects\SparkClrPoc\SparkClrPoc\bin\Debug\Razorvine.Pyrolite.dll
+c:\users\sparkuser\documents\visual studio 2015\Projects\SparkClrPoc\SparkClrPoc\bin\Debug\Razorvine.Serpent.dll
+c:\users\sparkuser\documents\visual studio 2015\Projects\SparkClrPoc\SparkClrPoc\bin\Debug\log4net.xml
+c:\users\sparkuser\documents\visual studio 2015\Projects\SparkClrPoc\SparkClrPoc\bin\Debug\Newtonsoft.Json.xml
+c:\users\sparkuser\documents\visual studio 2015\Projects\SparkClrPoc\SparkClrPoc\obj\Debug\SparkClrPoc.csprojResolveAssemblyReference.cache
+c:\users\sparkuser\documents\visual studio 2015\Projects\SparkClrPoc\SparkClrPoc\obj\Debug\SparkClrPoc.exe
+c:\users\sparkuser\documents\visual studio 2015\Projects\SparkClrPoc\SparkClrPoc\obj\Debug\SparkClrPoc.pdb
+c:\users\sparkuser\documents\visual studio 2015\Projects\SparkClrPoc\SparkClrPoc\bin\Debug\Data\SacramentocrimeJanuary2006.csv
