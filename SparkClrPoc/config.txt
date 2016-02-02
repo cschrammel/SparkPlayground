@@ -4,7 +4,7 @@ Hadoop: 2.6.3 (should match the version of Spark that you are using)
 
 ----------------
 
-export SPARK_HOME=/Users/toddmichael/frameworks/spark-1.6.0-bin-hadoop2.3
+export SPARK_HOME=/Users/xxxx/frameworks/spark-1.6.0-bin-hadoop2.3
 export  SPARK_LOCAL_IP=127.0.0.1
 export SPARK_MASTER_IP=127.0.0.1 
 export SPARK_MASTER_PORT=7077 
@@ -19,12 +19,12 @@ alias SPARK_ALL=$SPARK_HOME/sbin/start-all.sh
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home
 export PATH=$PATH:$JAVA_HOME/bin
 
-export HADOOP_INSTALL=/Users/toddmichael/frameworks/hadoop-2.6.3
+export HADOOP_INSTALL=/Users/xxxx/frameworks/hadoop-2.6.3
 export PATH=$PATH:$HADOOP_INSTALL/bin
 export HADOOP_MAPRED_HOME=$HADOOP_INSTALL
 export HADOOP_COMMON_HOME=$HADOOP_INSTALL
 export HADOOP_HDFS_HOME=$HADOOP_INSTALL
 export YARN_HOME=$HADOOP_INSTALL
 
-export HIVE_INSTALL=/Users/toddmichael/frameworks/apache-hive-1.2.1-bin
+export HIVE_INSTALL=/Users/xxxx/frameworks/apache-hive-1.2.1-bin
 export PATH=$PATH:$HIVE_INSTALL/bin
