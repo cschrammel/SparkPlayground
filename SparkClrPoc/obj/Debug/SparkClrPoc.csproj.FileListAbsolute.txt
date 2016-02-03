@@ -16,3 +16,15 @@ c:\users\sparkuser\documents\visual studio 2015\Projects\SparkClrPoc\SparkClrPoc
 C:\github\sparkplayground\SparkClrPoc\bin\Debug\SparkClrPoc.exe.config
 C:\github\sparkplayground\SparkClrPoc\obj\Debug\SparkClrPoc.exe
 C:\github\sparkplayground\SparkClrPoc\obj\Debug\SparkClrPoc.pdb
+C:\github\sparkplayground\SparkClrPoc\bin\Debug\Data\SacramentocrimeJanuary2006.csv
+C:\github\sparkplayground\SparkClrPoc\bin\Debug\SparkClrPoc.exe
+C:\github\sparkplayground\SparkClrPoc\bin\Debug\SparkClrPoc.pdb
+C:\github\sparkplayground\SparkClrPoc\bin\Debug\CSharpWorker.exe
+C:\github\sparkplayground\SparkClrPoc\bin\Debug\log4net.dll
+C:\github\sparkplayground\SparkClrPoc\bin\Debug\Microsoft.Spark.CSharp.Adapter.dll
+C:\github\sparkplayground\SparkClrPoc\bin\Debug\Newtonsoft.Json.dll
+C:\github\sparkplayground\SparkClrPoc\bin\Debug\Razorvine.Pyrolite.dll
+C:\github\sparkplayground\SparkClrPoc\bin\Debug\Razorvine.Serpent.dll
+C:\github\sparkplayground\SparkClrPoc\bin\Debug\log4net.xml
+C:\github\sparkplayground\SparkClrPoc\bin\Debug\Newtonsoft.Json.xml
+C:\github\sparkplayground\SparkClrPoc\obj\Debug\SparkClrPoc.csprojResolveAssemblyReference.cache

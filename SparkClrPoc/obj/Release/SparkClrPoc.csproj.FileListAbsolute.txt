@@ -1,0 +1,14 @@
+C:\github\sparkplayground\SparkClrPoc\bin\Release\SparkClrPoc.exe.config
+C:\github\sparkplayground\SparkClrPoc\bin\Release\Data\SacramentocrimeJanuary2006.csv
+C:\github\sparkplayground\SparkClrPoc\bin\Release\SparkClrPoc.exe
+C:\github\sparkplayground\SparkClrPoc\bin\Release\SparkClrPoc.pdb
+C:\github\sparkplayground\SparkClrPoc\bin\Release\CSharpWorker.exe
+C:\github\sparkplayground\SparkClrPoc\bin\Release\log4net.dll
+C:\github\sparkplayground\SparkClrPoc\bin\Release\Microsoft.Spark.CSharp.Adapter.dll
+C:\github\sparkplayground\SparkClrPoc\bin\Release\Newtonsoft.Json.dll
+C:\github\sparkplayground\SparkClrPoc\bin\Release\Razorvine.Pyrolite.dll
+C:\github\sparkplayground\SparkClrPoc\bin\Release\Razorvine.Serpent.dll
+C:\github\sparkplayground\SparkClrPoc\bin\Release\log4net.xml
+C:\github\sparkplayground\SparkClrPoc\bin\Release\Newtonsoft.Json.xml
+C:\github\sparkplayground\SparkClrPoc\obj\Release\SparkClrPoc.exe
+C:\github\sparkplayground\SparkClrPoc\obj\Release\SparkClrPoc.pdb

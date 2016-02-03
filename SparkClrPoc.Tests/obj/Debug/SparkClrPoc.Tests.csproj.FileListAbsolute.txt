@@ -1,0 +1,7 @@
+C:\github\sparkplayground\SparkClrPoc.Tests\bin\Debug\SparkClrPoc.Tests.dll
+C:\github\sparkplayground\SparkClrPoc.Tests\bin\Debug\SparkClrPoc.Tests.pdb
+C:\github\sparkplayground\SparkClrPoc.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\github\sparkplayground\SparkClrPoc.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\github\sparkplayground\SparkClrPoc.Tests\obj\Debug\SparkClrPoc.Tests.csprojResolveAssemblyReference.cache
+C:\github\sparkplayground\SparkClrPoc.Tests\obj\Debug\SparkClrPoc.Tests.dll
+C:\github\sparkplayground\SparkClrPoc.Tests\obj\Debug\SparkClrPoc.Tests.pdb
