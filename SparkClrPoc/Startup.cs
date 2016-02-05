@@ -1,6 +1,4 @@
-using System.IO;
 using System.Web.Http;
-using Microsoft.Spark.CSharp.Core;
 using Owin;
 
 namespace SparkClrPoc
@@ -21,7 +19,5 @@ namespace SparkClrPoc
 
             appBuilder.UseWebApi(config);
         }
-
-
     }
 }

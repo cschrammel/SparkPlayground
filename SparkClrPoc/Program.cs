@@ -11,12 +11,10 @@ namespace SparkClrPoc
 
         static void Main(string[] args)
         {
-            string baseAddress = "http://localhost:9000/";
-
             SparkContext = CreateSparkContext();
             SparkContext.SetCheckpointDir(Path.GetTempPath());
 
-            using (WebApp.Start<Startup>(baseAddress))
+            using (WebApp.Start<Startup>("http://localhost:9000/"))
             {
                 Console.ReadLine();
             }
