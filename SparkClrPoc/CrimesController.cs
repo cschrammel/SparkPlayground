@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web.Http;
 using Microsoft.Spark.CSharp.Core;
 using Microsoft.Spark.CSharp.Sql;
+using SparkClrPoc.Models;
 
 namespace SparkClrPoc
 {
@@ -11,13 +12,13 @@ namespace SparkClrPoc
     {
         private static SqlContext _sqlContext;
         private static SparkContext _sparkContext;
+        private const string CrimeFilePath = @".\Data\SacramentocrimeJanuary2006.csv";
 
         public CrimesController()
         {
             _sparkContext = Program.SparkContext;
-
             var crimeDataFrame = GetSqlContext()
-                .TextFile(@"C:\github\sparkplayground\SparkClrPoc\Data\SacramentocrimeJanuary2006.csv",
+                .TextFile(CrimeFilePath,
                     new StructType(new List<StructField>
                     {
                         new StructField("cdatetime", new StringType()),
@@ -31,21 +32,21 @@ namespace SparkClrPoc
                         new StructField("longitude", new StringType()),
                     }))
                 .Cache();
-
             crimeDataFrame.RegisterTempTable("crime");
         }
 
-        public IEnumerable<string> Get(string search)
+        public IEnumerable<Crime> Get(string search)
         {
-            return GetSqlContext().Sql("SELECT crimedescr, COUNT(*) AS Count " +
-                                       "FROM crime " +
-                                       $"WHERE crimedescr LIKE '%{search.ToUpper()}%' " +
-                                       "GROUP BY crimedescr " +
-                                       "ORDER BY 2 DESC ")
-                .Select("crimedescr", "Count")
+            return GetSqlContext()
+                .Sql("SELECT crimedescr " +
+                     "FROM crime " +
+                     $"WHERE crimedescr LIKE '%{search}%' ")
+                .Select("crimedescr")
                 .Collect()
-                .OrderByDescending(r => r.Get(1))
-                .Select(r => (string) r.Get(0) + "(" + (int) r.Get(1) + ")")
+                .Select(r => new Crime
+                {
+                    Description = (string) r.Get(0),
+                })
                 .ToList();
         }
 

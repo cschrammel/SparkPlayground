@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 using Microsoft.Owin.Hosting;
 using Microsoft.Spark.CSharp.Core;
 
@@ -12,7 +11,6 @@ namespace SparkClrPoc
         static void Main(string[] args)
         {
             SparkContext = CreateSparkContext();
-            SparkContext.SetCheckpointDir(Path.GetTempPath());
 
             using (WebApp.Start<Startup>("http://localhost:9000/"))
             {
@@ -24,8 +22,9 @@ namespace SparkClrPoc
 
         private static SparkContext CreateSparkContext()
         {
-            return new SparkContext("local", "sparkSqlTest");
+            var conf = new SparkConf();
+            conf.Set("spark.local.dir", @"C:\temp");
+            return new SparkContext(conf);
         }
-
     }
 }

@@ -27,7 +27,6 @@ C:\github\sparkplayground\SparkClrPoc\bin\Debug\Razorvine.Pyrolite.dll
 C:\github\sparkplayground\SparkClrPoc\bin\Debug\Razorvine.Serpent.dll
 C:\github\sparkplayground\SparkClrPoc\bin\Debug\log4net.xml
 C:\github\sparkplayground\SparkClrPoc\bin\Debug\Newtonsoft.Json.xml
-C:\github\sparkplayground\SparkClrPoc\obj\Debug\SparkClrPoc.csprojResolveAssemblyReference.cache
 C:\github\sparkplayground\SparkClrPoc\bin\Debug\Microsoft.Owin.dll
 C:\github\sparkplayground\SparkClrPoc\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
 C:\github\sparkplayground\SparkClrPoc\bin\Debug\Microsoft.Owin.Hosting.dll
