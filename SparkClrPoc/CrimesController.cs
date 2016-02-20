@@ -12,25 +12,25 @@ namespace SparkClrPoc
     {
         private static SqlContext _sqlContext;
         private static SparkContext _sparkContext;
-        private const string CrimeFilePath = @".\Data\SacramentocrimeJanuary2006.csv";
+        private const string CrimeFilePath = @"C:\code\sparkplayground\SparkClrPoc\Data\SacramentocrimeJanuary2006.csv";
 
         public CrimesController()
         {
             _sparkContext = Program.SparkContext;
             var crimeDataFrame = GetSqlContext()
                 .TextFile(CrimeFilePath,
-                    new StructType(new List<StructField>
-                    {
-                        new StructField("cdatetime", new StringType()),
-                        new StructField("address", new StringType()),
-                        new StructField("district", new StringType()),
-                        new StructField("beat", new StringType()),
-                        new StructField("grid", new StringType()),
-                        new StructField("crimedescr", new StringType()),
-                        new StructField("ucr_ncic_code", new StringType()),
-                        new StructField("latitude", new StringType()),
-                        new StructField("longitude", new StringType()),
-                    }))
+                        new StructType(new List<StructField>
+                        {
+                            new StructField("cdatetime", new StringType()),
+                            new StructField("address", new StringType()),
+                            new StructField("district", new StringType()),
+                            new StructField("beat", new StringType()),
+                            new StructField("grid", new StringType()),
+                            new StructField("crimedescr", new StringType()),
+                            new StructField("ucr_ncic_code", new StringType()),
+                            new StructField("latitude", new StringType()),
+                            new StructField("longitude", new StringType()),
+                        }))
                 .Cache();
             crimeDataFrame.RegisterTempTable("crime");
         }

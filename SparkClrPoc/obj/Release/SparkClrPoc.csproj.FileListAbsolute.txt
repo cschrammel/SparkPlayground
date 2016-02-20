@@ -26,3 +26,6 @@ C:\github\sparkplayground\SparkClrPoc\bin\Release\System.Web.Http.Owin.xml
 C:\github\sparkplayground\SparkClrPoc\obj\Release\SparkClrPoc.exe
 C:\github\sparkplayground\SparkClrPoc\obj\Release\SparkClrPoc.pdb
 C:\github\sparkplayground\SparkClrPoc\obj\Release\SparkClrPoc.csprojResolveAssemblyReference.cache
+C:\code\sparkplayground\SparkClrPoc\bin\Release\SparkClrPoc.exe.config
+C:\code\sparkplayground\SparkClrPoc\obj\Release\SparkClrPoc.exe
+C:\code\sparkplayground\SparkClrPoc\obj\Release\SparkClrPoc.pdb

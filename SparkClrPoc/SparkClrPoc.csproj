@@ -95,6 +95,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FixedWidthController.cs" />
     <Compile Include="Models\Crime.cs" />
     <Compile Include="CrimesController.cs" />
     <Compile Include="Program.cs" />
