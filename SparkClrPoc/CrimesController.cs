@@ -33,6 +33,8 @@ namespace SparkClrPoc
                         }))
                 .Cache();
             crimeDataFrame.RegisterTempTable("crime");
+            crimeDataFrame.Write().Mode(SaveMode.Overwrite).Parquet(@"c:\temp\test");
+
         }
 
         public IEnumerable<Crime> Get(string search)

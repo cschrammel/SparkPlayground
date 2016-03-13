@@ -4,3 +4,8 @@ C:\github\sparkplayground\SparkClrPoc.Tests\bin\Debug\Microsoft.VisualStudio.Qua
 C:\github\sparkplayground\SparkClrPoc.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
 C:\github\sparkplayground\SparkClrPoc.Tests\obj\Debug\SparkClrPoc.Tests.dll
 C:\github\sparkplayground\SparkClrPoc.Tests\obj\Debug\SparkClrPoc.Tests.pdb
+C:\code\sparkplayground\SparkClrPoc.Tests\bin\Debug\SparkClrPoc.Tests.dll
+C:\code\sparkplayground\SparkClrPoc.Tests\bin\Debug\SparkClrPoc.Tests.pdb
+C:\code\sparkplayground\SparkClrPoc.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\code\sparkplayground\SparkClrPoc.Tests\obj\Debug\SparkClrPoc.Tests.dll
+C:\code\sparkplayground\SparkClrPoc.Tests\obj\Debug\SparkClrPoc.Tests.pdb

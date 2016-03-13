@@ -13,7 +13,7 @@ namespace SparkClrPoc
             SparkContext = CreateSparkContext();
 
             using (WebApp.Start<Startup>("http://localhost:9000/"))
-            {
+            {   
                 Console.ReadLine();
             }
 
